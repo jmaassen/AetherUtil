@@ -57,7 +57,6 @@
 
         <javadoc destdir="${javadoc}" access="public" sourcepath="${src}">
             <classpath refid="external_jars" />
-            <link href="http://logging.apache.org/log4j/docs/api/" />
 	    <link href="http://download.oracle.com/javase/1.7.0/docs/api/" />
         </javadoc>
     </target>
